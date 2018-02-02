@@ -201,6 +201,28 @@ label {
 li {
 padding-bottom: 1.222em; /* 22 / 18 = 1.222*/
 }
+input,
+label {
+  display: block;
+  margin-bottom: 11px;
+}
+input {
+  box-sizing: border-box;
+  width: 100%;
+  border: 0;
+  cursor: pointer;
+  border-radius: 0.277em;
+  line-height: 1;
+  padding: 13px;
+}
+input[type=submit] {
+    background: #7A7A7A;
+}
+input:focus {
+    background: #ccc;
+    border: 5px solid black;
+}
+
 /* Layout Styles */
 /*
   Hint: these tend to be
