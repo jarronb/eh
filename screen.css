@@ -253,6 +253,13 @@ input:focus {
   2. Influenced by JavaScript
   3. Organized by Base, Layout, Module, State
 */
+
+span.warning {
+  color: red;
+  font-weight: bold;
+  width: inherit;
+}
+
 @media screen and (min-width: 1000px) {
   input,
   label {
