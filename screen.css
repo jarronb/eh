@@ -249,4 +249,24 @@ input:focus {
   2. Influenced by JavaScript
   3. Organized by Base, Layout, Module, State
 */
+@media screen and (min-width: 1000px) {
+  input,
+  label {
+    margin-bottom: 11px;
+  }
+
+  form {
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 10px 50px;
+    background: rgba(30,144,255, .75);
+    box-shadow: 10px  10px 50px #000000;
+  }
+
+  input[type=submit] {
+      background: #7A7A7A;
+      width: 25%;
+      float: right;
+      border: 2px solid black;
+  }
 }
